@@ -1,7 +1,6 @@
 #!/usr/bin/env groovy
 
 node { // <1>
-
     stage('Build') {
         /* .. snip .. */
     }
