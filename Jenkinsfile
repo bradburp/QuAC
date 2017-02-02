@@ -10,4 +10,8 @@ node { // <1>
     stage('Deploy') {
         /* .. snip .. */
     }
+    stage('Finished') {
+        /* .. snip .. */
+    }
+
 }
