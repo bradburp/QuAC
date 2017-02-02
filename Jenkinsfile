@@ -1,9 +1,7 @@
 #!groovy
 
 node { // <1>
-    stage('Check out') {
-        checkout scm
-    }
+
     stage('Build') {
         /* .. snip .. */
     }
