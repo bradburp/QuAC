@@ -1,9 +1,9 @@
-#!groovy
+#!/usr/bin/env groovy
 
 node { // <1>
 
     stage('Build') {
-        sh 'cat /etc/passwd'
+        System.getProperty("user.dir");
     }
     stage('Test') {
         /* .. snip .. */
