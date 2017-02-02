@@ -2,7 +2,7 @@
 
 node { // <1>
     stage('Check out') {
-        checkout scm
+        /* checkout scm */
     }
     stage('Build') {
         /* .. snip .. */
