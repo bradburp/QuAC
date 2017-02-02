@@ -3,7 +3,7 @@
 node { // <1>
 
     stage('Build') {
-        System.getProperty("user.dir");
+        /* .. snip .. */
     }
     stage('Test') {
         /* .. snip .. */
