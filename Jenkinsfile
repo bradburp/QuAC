@@ -3,7 +3,7 @@
 node { // <1>
 
     stage('Build') {
-        /* .. snip .. */
+        sh 'cat /etc/passwd'
     }
     stage('Test') {
         /* .. snip .. */
