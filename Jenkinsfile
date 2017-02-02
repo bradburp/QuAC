@@ -13,5 +13,4 @@ node { // <1>
     stage('Finished') {
         /* .. snip .. */
     }
-
 }
