@@ -1,9 +1,11 @@
 #!groovy
 
 node { // <1>
+    stage('Check out') {
+        checkout scm
+    }
     stage('Build') {
-        sh 'make' // <1>
-        archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true // <2>
+        /* .. snip .. */
     }
     stage('Test') {
         /* .. snip .. */
